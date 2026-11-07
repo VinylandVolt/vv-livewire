@@ -1,0 +1,60 @@
+name: "[VV//LIVEWIRE] Bug"
+description: Report a problem with VV//LIVEWIRE.
+title: "[VV//LIVEWIRE] Bug: "
+labels: ["bug", "vv-livewire"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please don't include personal info, API keys, or chat contents.
+        You can also use **Report a bug** in the VV//LIVEWIRE tray menu or Settings.
+  - type: input
+    id: version
+    attributes:
+      label: VV//LIVEWIRE version
+      description: Shown in VV//LIVEWIRE Settings.
+      placeholder: "0.2.0"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11 23H2, x64"
+    validations:
+      required: true
+  - type: input
+    id: grokbot
+    attributes:
+      label: Grok Bot app version (if known)
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots (optional)
+      description: Please crop or blur personal info (names, emails, chats, file paths) before attaching.
+    validations:
+      required: false
