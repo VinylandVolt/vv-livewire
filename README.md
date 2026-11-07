@@ -1,5 +1,9 @@
 # VV//LIVEWIRE
 
+![VV//LIVEWIRE concept artwork](docs/hero.png)
+
+*Concept artwork, not app footage.*
+
 **A free, unofficial desktop overlay for the Grok Bot app on Windows.**
 A floating orb and panel for your Grok Bot team: see who is working, hear replies, and get pinged when a bot needs you.
 
@@ -81,6 +85,26 @@ VV//LIVEWIRE depends on how the Grok Bot desktop app stores its local cache. A G
 ## Uninstall
 
 Windows Settings > Apps > Installed apps > **VV Livewire** > Uninstall. Uninstalling never touches your Grok Bot setup.
+
+## Privacy
+
+VV//LIVEWIRE runs on your PC. It reads only the small local cache Grok Bot keeps (section names, bot names and colors, unread state). It does not change your Grok Bot setup, and it does not read your chats or files. The app contains no analytics or tracking code.
+
+It connects to the internet only for:
+- **Update checks** to this repository's GitHub Releases.
+- **Bug reports you choose to send** (contents listed under Report a bug).
+- **Voices, if you turn them on:** the neural voice downloads its voice model from Hugging Face once and then speaks locally. The optional Grok voice sends the text being spoken to xAI's API using your own xAI API key, which is stored encrypted on your PC.
+
+## Support
+
+- Bugs: in-app **Report a bug**, or open an issue with the [VV//LIVEWIRE Bug template](https://github.com/VinylandVolt/vv-livewire/issues/new/choose).
+- Ideas and skin requests: open a [VV//LIVEWIRE Feature / skin request](https://github.com/VinylandVolt/vv-livewire/issues/new/choose).
+- Security issues: see [SECURITY.md](SECURITY.md). Please report privately.
+- News: [vinylandvolt.com](https://vinylandvolt.com/skins/vv-livewire/) and [@VinylandVolt](https://x.com/VinylandVolt).
+
+## License
+
+Free to use. See [LICENSE](LICENSE). Please share links instead of rehosting the installer.
 
 ## Changelog
 
